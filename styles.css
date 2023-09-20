@@ -1,0 +1,28 @@
+.enlace-nav{
+    background-color: crimson;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.enlace-nav:hover{
+    background-color: rgb(212, 126, 21);
+}
+
+nav{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between; 
+    /* flex-direction: column; */
+    /* height: 500px;
+    align-items: center; */
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
